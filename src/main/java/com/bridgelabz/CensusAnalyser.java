@@ -11,7 +11,7 @@ import java.util.List;
  * @version - 16.0
  * @since - 2021-09-09
  */
-public class CensusAnalyser {
+public class CensusAnalyser extends Throwable {
     public static void main(String[] args) throws IOException, CensusException {
         String filePathRead = "C:\\Users\\sandesh shetty\\IdeaProjects\\IndianStatesCensusAnalyser\\IndianStateCensusData";
         String fileName = "IndianStateCensusData";
